@@ -15,6 +15,8 @@ body {
   padding: 3px 75px;
   align-items: center;
   flex-shrink: 0;
+  /* position: fixed;
+  background-color: #100D1A; */
 }
 .wordings {
   display: flex;
@@ -194,12 +196,18 @@ body {
   padding-top: 10px;
 }
 .section2 {
-  background-color: #3e0b6e;
   height: 1000px;
   background-image: url(images/backgroundimg.svg);
   width: 100%;
   display: flex;
   justify-content: center;
+  background: radial-gradient(
+      79.23% 82.17% at 20.4% 24.08%,
+      #6f4c61 0%,
+      #130443 100%
+    )
+    /* warning: gradient uses a rotation that is not
+    supported by CSS and may not behave as expected */;
 }
 .bothParts {
   width: 70%;
@@ -296,8 +304,13 @@ body {
   align-items: center;
   color: #fff;
   /* background-image: url(images/bg.svg); */
-  background-color:rgb(105, 30, 62)
-;
+  background: radial-gradient(
+      79.23% 82.17% at 20.4% 24.08%,
+      #6f4c61 0%,
+      #130443 100%
+    )
+    /* warning: gradient uses a rotation that is not
+    supported by CSS and may not behave as expected */;
 }
 .row1 {
   display: flex;
@@ -316,6 +329,7 @@ body {
   position: absolute;
   padding-right: 300px;
   margin-bottom: 300px;
+  opacity: 0.6;
 }
 .header2 {
   font-family: Poppins;
@@ -345,6 +359,7 @@ body {
   position: absolute;
   margin-top: 100px;
   padding-left: 200px;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 768px) {
@@ -382,4 +397,118 @@ body {
   .line {
     width: 5px;
   }
+}
+.section4 {
+  height: 600px;
+  text-align: center;
+  background: radial-gradient(
+      79.23% 82.17% at 20.4% 24.08%,
+      #6f4c61 0%,
+      #130443 100%
+    )
+    /* warning: gradient uses a rotation that is not
+   supported by CSS and may not behave as expected */;
+}
+.did {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 250;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.what {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 90px;
+  letter-spacing: 0em;
+  background: linear-gradient(
+    233deg,
+    #d13f96 28.62%,
+    #d13f96 28.62%,
+    #3e14c9 105.6%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ok {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 250;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.imgWords {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  width: 300px;
+}
+.internet {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+.imageWords2 {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  width: 280px;
+}
+.cash {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.firstRow {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 50px;
+}
+.secondRow {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 50px;
+}
+.imgWords3 {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  width: 340px;
+}
+.imgWords4 {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  width: 250px;
+}
+.contacts{
+  font-family: Poppins;
+font-size: 26px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+}
+.social{
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+.firstSecondrow{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+display: flex;
+flex-direction: column;
 }
