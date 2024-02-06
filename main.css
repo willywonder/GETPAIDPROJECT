@@ -7,6 +7,7 @@ body {
   background-color: black;
   width: 100vw;
   height: 100%;
+  font-family: "Poppins";
 }
 .headerContent1 {
   display: flex;
@@ -164,14 +165,14 @@ body {
   gap: 200px;
   justify-content: center;
 }
-.words-under-icons {
+/* .words-under-icons {
   display: flex;
   gap: 100px;
   justify-content: center;
   font-size: 15px;
   justify-content: center;
-}
-.figures-under-icons {
+} */
+/* .figures-under-icons {
   display: flex;
   gap: 150px;
   justify-content: center;
@@ -182,7 +183,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
+} */
 .first {
   padding-left: 50px;
   padding-top: 10px;
@@ -315,6 +316,12 @@ body {
 .row1 {
   display: flex;
 }
+.card1{
+  background-color:#8D52B3 ;
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+}
 .row2 {
   display: flex;
 }
@@ -391,6 +398,7 @@ body {
     flex-wrap: wrap;
     align-content: center;
   }
+  
   .row2 {
     flex-wrap: wrap;
   }
@@ -490,25 +498,280 @@ body {
   align-items: center;
   width: 250px;
 }
-.contacts{
-  font-family: Poppins;
-font-size: 26px;
-font-weight: 700;
-line-height: 54px;
-letter-spacing: 0em;
-}
-.social{
+.contacts {
   font-family: Poppins;
   font-size: 26px;
   font-weight: 700;
   line-height: 54px;
   letter-spacing: 0em;
 }
-.firstSecondrow{
+.social {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+}
+.firstSecondrow {
   display: flex;
   flex-direction: column;
 }
-.container{
-display: flex;
-flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.section5 {
+  height: 500px;
+  color: #fff;
+  background-image: url(images/what\ should\ I\ Begin\ with\ 1.png);
+  text-align: center;
+  padding-top: 200px;
+}
+.okay {
+  background: linear-gradient(
+    233deg,
+    #d13f96 28.62%,
+    #d13f96 28.62%,
+    #3e14c9 105.6%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.should {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 89px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.vector2 {
+  padding-right: 300px;
+}
+.vector3 {
+  padding-left: 500px;
+}
+.section6 {
+  height: 500px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.take {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  text-align: center;
+  background: linear-gradient(
+    233deg,
+    #d13f96 28.62%,
+    #d13f96 28.62%,
+    #3e14c9 105.6%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  text-align: center;
+}
+.section7 {
+  height: 550px;
+  color: #fff;
+}
+.plug {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 250;
+  line-height: 90px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.commu {
+  background: linear-gradient(
+    233deg,
+    #d13f96 28.62%,
+    #d13f96 28.62%,
+    #3e14c9 105.6%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.line1 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 30px;
+}
+.group1 {
+  display: flex;
+  width: 300px;
+  gap: 20px;
+}
+.gilds1 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #d13f96;
+}
+.bothText1 {
+  display: flex;
+  flex-direction: column;
+}
+.group2 {
+  display: flex;
+  width: 300px;
+  gap: 20px;
+}
+.getp {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #d13f96;
+}
+.pull {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.join {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.bothText2 {
+  display: flex;
+  flex-direction: column;
+}
+.line2 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 3dvh;
+}
+.group3 {
+  display: flex;
+  gap: 16px;
+}
+.group4 {
+  display: flex;
+  width: 300px;
+  gap: 20px;
+}
+.getpg {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #d13f96;
+}
+.gilds2 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #d13f96;
+}
+.everything {
+  align-content: center;
+}
+.line3 {
+  display: flex;
+  justify-content: center;
+  padding-right: 370px;
+}
+.group5 {
+  display: flex;
+  width: 300px;
+  gap: 20px;
+}
+.pesa {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #d13f96;
+}
+.backTop {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  height: 40px;
+}
+.footerContent {
+  background: linear-gradient(87.34deg, #3b3238 10.91%, #2d193b 51.02%);
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content:space-around;
+}
+.links {
+  display: flex;
+  gap: 15px;
+}
+.quick {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.home{
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.resource{
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.get{
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.allIcons{
+  display:flex;
 }
