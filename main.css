@@ -16,8 +16,10 @@ body {
   padding: 3px 75px;
   align-items: center;
   flex-shrink: 0;
-  /* position: fixed;
-  background-color: #100D1A; */
+  position: fixed;
+  /* z-index: 2; */
+  background-color: black;
+  width: 100%;
 }
 .wordings {
   display: flex;
@@ -316,14 +318,172 @@ body {
 .row1 {
   display: flex;
 }
-.card1{
-  background-color:#8D52B3 ;
+.card1 {
+  background-color: #8d52b3;
   display: flex;
   flex-direction: column;
- text-align: center;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("images/photo1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
+.card2 {
+  background-color: #8d52b3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("images/photo2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.card3 {
+  background-color: #8d52b3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("images/betting.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.card4{
+  background-color: #8d52b3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("images/nft.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.card5{
+  background-color: #8d52b3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("images/stocktrading.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.card6{
+  background-color: #8d52b3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-image: url("images/crypto.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.txt1 {
+  display: flex;
+  position: absolute;
+  background-color: #25175d;
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  top: 82.5%;
+  border-radius: 5px;
+  justify-content: center;
+}
+.txt2{
+  display: flex;
+  position: absolute;
+  background-color: #25175d;
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  top: 82.5%;
+  border-radius: 5px;
+  justify-content: center;
+}
+.txt3{
+  display: flex;
+  position: absolute;
+  background-color: #25175d;
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  top: 82.5%;
+  border-radius: 5px;
+ justify-content: center;
+}
+.txt4{
+  display: flex;
+  position: absolute;
+  background-color: #25175d;
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  top: 82.5%;
+  border-radius: 5px;
+  justify-content: center;
+}
+.txt5{
+  display: flex;
+  position: absolute;
+  background-color: #25175d;
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  top: 82.5%;
+  border-radius: 5px;
+justify-content: center;
+}
+.txt6{
+  display: flex;
+  position: absolute;
+  background-color: #25175d;
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  top: 82.5%;
+  border-radius: 5px;
+  justify-content: center;
+}
+
 .row2 {
   display: flex;
+  padding-top: 20px;
 }
 .ace {
   color: #fff;
@@ -398,7 +558,7 @@ body {
     flex-wrap: wrap;
     align-content: center;
   }
-  
+
   .row2 {
     flex-wrap: wrap;
   }
@@ -565,6 +725,7 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
 }
 .take {
   font-family: Poppins;
@@ -726,15 +887,16 @@ body {
 .backTop {
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
+  padding-right: 40px;
   height: 40px;
+  padding-bottom: 20px;
 }
 .footerContent {
   background: linear-gradient(87.34deg, #3b3238 10.91%, #2d193b 51.02%);
   display: flex;
   gap: 50px;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 .links {
   display: flex;
@@ -748,7 +910,7 @@ body {
   letter-spacing: 0em;
   color: #fff;
 }
-.home{
+.home {
   font-family: Poppins;
   font-size: 10px;
   font-weight: 400;
@@ -756,7 +918,7 @@ body {
   letter-spacing: 0em;
   color: #fff;
 }
-.resource{
+.resource {
   font-family: Poppins;
   font-size: 10px;
   font-weight: 400;
@@ -764,7 +926,7 @@ body {
   letter-spacing: 0em;
   color: #fff;
 }
-.get{
+.get {
   font-family: Poppins;
   font-size: 10px;
   font-weight: 400;
@@ -772,6 +934,7 @@ body {
   letter-spacing: 0em;
   color: #fff;
 }
-.allIcons{
-  display:flex;
+.allIcons {
+  display: flex;
+  gap: 10px;
 }
